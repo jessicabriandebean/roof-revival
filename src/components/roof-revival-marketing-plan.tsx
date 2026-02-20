@@ -1,4 +1,5 @@
-import { FileText, BarChart, TrendingUp, Users, DollarSign, Package, Zap, ChevronRight, Shield, Droplets, Sun, } from 'lucide-react';
+import { useState } from 'react';
+import { FileText, BarChart, TrendingUp, Users, DollarSign, Package, Zap, ChevronRight, Shield, Droplets, Sun } from 'lucide-react';
 
 const RoofCompanyPlan = () => {
   const [activeSection, setActiveSection] = useState('executive');
